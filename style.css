@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    /* margin: 100px; */
+    background-color: #f5f5dc;
+}
+
+h1 {
+    padding: 15px;
+    color: #DBDB56;
+    text-shadow: #000000 3px 0 20px;
+    font-family: 'Toony';
+    font-size: 95px;
+}
+
+button {
+    background-color: #9756DB;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+   font-family: '2font';
+   
+}
+
+button:hover {
+    background-color: #541B8F;
+}
+
+input {
+    padding: 10px;
+    font-size: 15px;
+    width: 180px;
+    height: 15px;
+}
+
+p {
+    padding: 10px;
+    font-size: 18px;
+    font-family: '2fon';
+    color: #000000;
+    font-size: 25px;
+}
+
+
+# #message {
+    font-weight: bold;
+    font-family: '2fon';
+    color: #000000;
+}
+
+img {
+    /* margin-top: 15px; */
+    width: 1200px;
+}
+
+@font-face {
+    font-family: 'Toony';
+    src: url(ToonyLineFill_PERSONAL_USE_ONLY.otf);
+}
+
+@font-face {
+    font-family: '2fon';
+    src: url(atwriter.ttf);
+}
+/* Estilos base para todos os tamanhos de tela */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5dc;
+}
+
+h1 {
+    padding: 15px;
+    color: #DBDB56;
+    text-shadow: #000000 3px 0 20px;
+    font-family: 'Toony';
+    font-size: 95px;
+}
+
+button {
+    background-color: #9756DB;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: '2font';
+}
+
+button:hover {
+    background-color: #541B8F;
+}
+
+input {
+    padding: 10px;
+    font-size: 15px;
+    width: 180px;
+    height: 15px;
+}
+
+p {
+    padding: 10px;
+    font-size: 18px;
+    font-family: '2fon';
+    color: #000000;
+    font-size: 25px;
+}
+
+#message {
+    font-weight: bold;
+    font-family: '2fon';
+    color: #000000;
+}
+
+img {
+    /* margin-top: 15px; */
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'Toony';
+    src: url(ToonyLineFill_PERSONAL_USE_ONLY.otf);
+}
+
+@font-face {
+    font-family: '2fon';
+    src: url(atwriter.ttf);
+}
+
+/* Estilos para telas menores, como smartphones em modo paisagem */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    input {
+        font-size: 14px;
+        width: 50px;
+        height: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+/* Estilos para telas muito pequenas, como smartphones em modo retrato */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
+    input {
+        font-size: 12px;
+        width: 20px;
+        height: 10px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
